@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+}
+.navbar{
+    margin-top: 20px;
+}
+.navbar li{
+    list-style-type: none;
+    display: inline;
+}
+ul a{
+    text-decoration: none;
+    text-align: end;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: red;
+}
+ul a:hover{
+    color: white;
+    background-color: blue;
+}
+h1, h2, h3, p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#welcome{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+#about{
+    text-align: end;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: red;
+    color: white;
+}
+#work{
+    text-align: center;
+    background-color: lightblue;
+}
+#prjct{
+    display: flex;
+    padding-left: 450px;
+    list-style-type: none;
+    
+}
+#prjct > li{
+    padding: 50px;
+}
+#resume{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#contact{
+    text-align: center;
+    margin-top: 40px;
+}
+#name, #email{
+    padding: 7px 30px;
+}
+#btn{
+    background-color: blue;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    border: 2px solid green;
+
+}
+#btn:hover{
+    color: white;
+    background-color: red;
+}
+footer{
+    font-weight: bold;
+}
